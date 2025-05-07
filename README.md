@@ -103,7 +103,7 @@ int main() {
             signal_semaphore(sem_set_id);  // Signal consumer
             usleep(500000); // Sleep to allow consumer to process
         }
-
+  
         // Wait for child to finish
         wait(NULL);
 
